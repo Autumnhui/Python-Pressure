@@ -75,7 +75,7 @@
     
             ...........
     
-    提取 ‘索引’ 和 ‘num’ 中一列的数据。
+提取 ‘索引’ 和 ‘num’ 中一列的数据。
 
 
 ##### 🐼条件判断（截取部分展示，详见pressure.py）
@@ -144,12 +144,12 @@
         .......
 
 
-#### 🔧功能扩展
+### 🔧功能扩展
 用户可通过多种自定的选择跳转交互页面，查看进行数据筛选后不同的内容。
 
-#### 🐂HTML页面交互及Jinja2
+### 🐂HTML页面交互及Jinja2
 图jinja1。2使用jinja，
 2使用数据传输
 
-#### 🔗PythonAnywhere链接
+### 🔗PythonAnywhere链接
 [🔗PythonAnywhere（👈点击展示）](http://pythonpressure.pythonanywhere.com/)
