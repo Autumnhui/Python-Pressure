@@ -3,6 +3,7 @@
 ---
 
 此项目为中大南方18级Python课程期末项目，与17级合作完成。
+
 项目内容为通过使用Python完成数据处理、可视化操作，并部署于PythonAnywhere上展示。
 
 [PythonAnywhere（👈点击展示）](http://pythonpressure.pythonanywhere.com/)
@@ -28,7 +29,7 @@
 ##### 🔑基本使用
 用户选择相关主题，并点击提交，网页即呈现对应主题的内容以及分析、故事。
 
-![截图](./readme-pic/屏幕快照 2020-01-05 下午3.52.11.png)
+![截图](https://github.com/Autumnhui/Python-Pressure/blob/master/readme-pic/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-05%20%E4%B8%8B%E5%8D%883.52.11.png?raw=true)
 
 ##### 🔐进阶使用
 通过用户选择进行交互数据的筛选，并刷新页面呈现对应的结果页面（pythonanywhere加载巨慢）。
