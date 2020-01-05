@@ -8,7 +8,7 @@
 [PythonAnywhere（👈点击展示）](http://pythonpressure.pythonanywhere.com/)
 
 
- [![GitHub stars](https://img.shields.io/github/stars/Alivon/Panda-Learning.svg?style=social)](https://github.com/Autumnhui/Python-Pressure/stargazers)     [![GitHub forks](https://img.shields.io/github/forks/Alivon/Panda-Learning.svg?style=social)](https://github.com/Autumnhui/Python-Pressure/network/members)
+ [![GitHub stars](https://img.shields.io/github/stars/Autumnhui/Python-Pressure?style=social)](https://github.com/Autumnhui/Python-Pressure/stargazers)     [![GitHub forks](https://img.shields.io/github/forks/Autumnhui/Python-Pressure?style=social)](https://github.com/Autumnhui/Python-Pressure/network/members)
 
 
 ---
