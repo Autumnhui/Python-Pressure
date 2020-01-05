@@ -155,16 +155,17 @@
 
 
 ### 👌Python档描述
+![jinja](./readme-pic/wenjian.png)
 
-主运行文件为 `pressure.py ` 文件。
+- 主运行文件为 `pressure.py ` 文件。
 
-`app.py` 以及 `data.py` 为调用文件。
+- `app.py` 以及 `data.py` 为调用文件。
 
-`example.html` 系列文件为生成可视化图表的离线文件，作为引用文件。
+- `example.html` 系列文件为生成可视化图表的离线文件，作为引用文件。
 
- ' static ' 以及 ' templates ' 为网页样式以及模版。
+ - ' static ' 以及 ' templates ' 为网页样式以及模版。
  
- 其余为本项目引用的数据文档（xlxs/csv）。
+ - 其余为本项目引用的数据文档（xlxs/csv）。
 
 
 ### 🔧功能扩展
