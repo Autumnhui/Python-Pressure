@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family:      Verdana, Geneva, Arial, sans-serif;
+    font-size:        medium;
+    filter:           alpha(opacity=40);         
+    margin-top:       5%;
+    margin-bottom:    5%;
+    margin-left:      10%;
+    margin-right:     10%;
+    padding:          10px 10px 10px 10px;
+    background-color: #F0E4F2;
+    background-repeat : repeat;
+    background-size:cover;
+}
+h1 {color:#A446A4;
+	font-size:40px; 
+	text-align: center;
+}
+h2{color:#A446A4;
+	font-size:30px; 
+	text-align: center;
+}
+h2.hover{color:#C652E5;}
+p { text-indent:2em;}

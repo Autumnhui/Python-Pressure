@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<!--"/hurun"为"/"点击之后的链接-->
+<form method="POST" action="/hurun">
+    <select name="the_element_selected">
+        {% for item in the_select_element %}
+            <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+<!--safe使在py文档中设置的字体样式可以在页面呈现-->
+{{ the_plot_all|safe }}
+{{ the_res|safe }}
+
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+
+
+
+<!-- 图三 -->
+<h2 class='title2'>{{ the_title2 }}</h2>
+<form method="POST" action="/first/combin" class='pic2'>
+    <select name="the_element_selected">
+        {% for item in the_select_element %}
+        <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+    <p><input value='Do it!' type='SUBMIT'></p>
+</form>
+<h3 class='consult'>{{the_consult}}</h3>
+{{the_plot_all|safe}}
+
+
+{% endblock %}
+
