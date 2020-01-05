@@ -40,74 +40,68 @@
 
 ##### 🐒数据结构的循环（截取部分展示，详见pressure.py）
 
-` list4=[]
-for i in range(len(num_count)):
+    list4=[]
+        for i in range(len(num_count)):
 
-    list4.append(num_count[i])
+        list4.append(num_count[i])
     
-    list4.append(num_count[i])
+        list4.append(num_count[i])
     
-    list4.append(num_count[i])
+        list4.append(num_count[i])
     
-    list4.append(num_count[i])
+        list4.append(num_count[i])
     
-    list4.append(num_count[i])
+        list4.append(num_count[i])
     
-    list4.append(num_count[i]) 
+        list4.append(num_count[i]) 
     
-................
-`
-
-
+        ................
 
 
 
 
 ##### 🐻使用推导式（截取部分展示，详见pressure.py）
 
-`     
-## 呈现问题表格
+   
+        ## 呈现问题表格
 
-    data_pie1 = data_pie.T.to_html()
+            data_pie1 = data_pie.T.to_html()
     
-    pie1_list = [num for num in data_pie['分类']]
+            pie1_list = [num for num in data_pie['分类']]
     
-    labels = [index for index in data_pie.index]
+            labels = [index for index in data_pie.index]
     
-    ### 设置扇形图下拉框 
+            ### 设置扇形图下拉框 
     
-    ...........
+            ...........
     
-    `
-    
-提取 ‘索引’ 和 ‘num’ 中一列的数据。
+    提取 ‘索引’ 和 ‘num’ 中一列的数据。
 
 
 ##### 🐼条件判断（截取部分展示，详见pressure.py）
 
-`  
-def most_cor():
 
-    ## 筛选扇形图
+        def most_cor():
+
+            ## 筛选扇形图
     
-    the_element1 = request.form['the_element1_selected']
+            the_element1 = request.form['the_element1_selected']
     
-    print(the_element1)
+            print(the_element1)
     
-    element1_available = element1
+            element1_available = element1
     
-    ## 表格
+            ## 表格
     
-    ..........
+            ..........
     
- `
  
  判断用户的选择进而创建对应的图形。
 
 ##### 🐱数据交互（截取部分展示，详见pressure.py）
 
-` 
-return render_template('first.html',
+
+        return render_template('first.html',
 
                             the_title1 = title1,
                             
@@ -121,35 +115,35 @@ return render_template('first.html',
                             
                             the_plot_all3 = plot_all3,
                             
-                         .........
+                                 .........
                          
- `
+
 
 
 ##### 🦁️自定义函数/模块（截取部分展示，详见pressure.py）
 
-`  
-def pressure_most():
 
-title1 = "您多久受到一次压力？"
+        def pressure_most():
 
-## 扇形图分析
+        title1 = "您多久受到一次压力？"
 
-### 表格呈现数据
+        ## 扇形图分析
 
-data_pie =  pd.DataFrame(pressure2.loc['您多久受到一次压力？']['分类'].value_counts())
+        ### 表格呈现数据
 
-## 呈现问题表格
+        data_pie =  pd.DataFrame(pressure2.loc['您多久受到一次压力？']['分类'].value_counts())
 
-data_pie1 = data_pie.T.to_html()
+        ## 呈现问题表格
 
-pie1_list = [num for num in data_pie['分类']]
+        data_pie1 = data_pie.T.to_html()
 
-labels = [index for index in data_pie.index]
+        pie1_list = [num for num in data_pie['分类']]
 
-.......
+        labels = [index for index in data_pie.index]
 
-`
+        .......
+
+
 #### 🔧功能扩展
 用户可通过多种自定的选择跳转交互页面，查看进行数据筛选后不同的内容。
 
