@@ -22,19 +22,19 @@
 3. 相关分析/总结
 4. 数据故事
 
-图1
+![图1](./readme-pic/1.png)
 
 ## 📗使用方法
 ##### 🔑基本使用
 用户选择相关主题，并点击提交，网页即呈现对应主题的内容以及分析、故事。
 
-屏幕截图
+![截图](./readme-pic/屏幕快照 2020-01-05 下午3.52.11.png)
 
 ##### 🔐进阶使用
 通过用户选择进行交互数据的筛选，并刷新页面呈现对应的结果页面（pythonanywhere加载巨慢）。
 
-图2
-图3
+![图2](./readme-pic/2.png)
+![图3](./readme-pic/3.png)
 
 ## 📝数据传递描述
 
@@ -148,8 +148,8 @@
 用户可通过多种自定的选择跳转交互页面，查看进行数据筛选后不同的内容。
 
 ### 🐂HTML页面交互及Jinja2
-图jinja1。2使用jinja，
-2使用数据传输
+![jinja](./readme-pic/jinja.png)
+![jinja2](./readme-pic/jinja2.png)
 
 ### 🔗PythonAnywhere链接
 [🔗PythonAnywhere（👈点击展示）](http://pythonpressure.pythonanywhere.com/)
