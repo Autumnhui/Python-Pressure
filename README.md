@@ -41,7 +41,6 @@
 ##### 🐒数据结构的循环（截取部分展示，详见pressure.py）
 
 ` list4=[]
-
 for i in range(len(num_count)):
 
     list4.append(num_count[i])
@@ -57,7 +56,6 @@ for i in range(len(num_count)):
     list4.append(num_count[i]) 
     
 ................
-
 `
 
 
