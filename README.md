@@ -89,20 +89,31 @@
 
 
 ##### 🐼条件判断（截取部分展示，详见pressure.py）
-
-
-        def most_cor():
-
-            ## 筛选扇形图
-    
-            the_element1 = request.form['the_element1_selected']
-    
-            print(the_element1)
-    
-            element1_available = element1
-    
-            ## 表格
-    
+      
+     ## 图表2
+        
+        the_element3 = request.form['the_element3_selected']
+        
+        print(the_element3)
+        
+        element3_available = element3
+        
+        if the_element3 =='压力较小':
+        
+        the_level = 压力较小
+        
+        elif the_element3 =='压力一般':
+        
+        the_level = 压力一般
+        
+        elif the_element3 =='压力较大':
+        
+        the_level = 压力较大
+        
+        else:
+           
+           the_level = 压力很大
+            
             ..........
     
  
