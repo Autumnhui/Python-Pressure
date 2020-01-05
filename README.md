@@ -161,7 +161,7 @@
 ![jinja](./readme-pic/jinja.png)
 ![jinja2](./readme-pic/jinja2.png)
 
-### 🔗PythonAnywhere链接
-[🔗PythonAnywhere（👈点击展示）](http://pythonpressure.pythonanywhere.com/)
+### [🔗PythonAnywhere](http://pythonpressure.pythonanywhere.com/)
+
 
 ### [📦源码](https://github.com/Autumnhui/Python-Pressure/tree/master/code)
